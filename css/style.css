@@ -1,0 +1,103 @@
+/* CSS Document  */
+
+
+
+ 
+body,
+html {
+ 
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+.blue{
+
+
+  border-right: 5px solid #fff;
+}
+.green{
+
+
+ border-left: 5px solid #fff;
+}
+.right{
+ height: 300px;
+color: #fff;
+float: right;
+font-size: 18px !important;
+
+}
+.left{
+ height: 300px;
+color: #fff;
+float: left;
+font-size: 18px !important;
+
+}
+.wrapp-up{
+ 
+    background: linear-gradient(90deg, #FFC0CB 50%, #00FFFF 50%);
+
+}
+@media (max-width: 380px) {
+
+    
+}
+
+
+@media (max-width: 480px) {
+
+
+}
+@media (min-width: 481px)and (max-width: 767px) {
+    
+    
+  
+    
+ }
+ 
+
+@media (max-width: 767px) {
+.blue{
+border:none;
+  border-bottom: 5px solid #fff;
+  
+    background:  #FFC0CB;
+}
+.green{
+border:none;
+ border-top: 5px solid #fff;
+ 
+    background: #00FFFF;
+}
+.wrapp-up{
+ 
+    background: none;
+
+}
+.right{
+width: 100%;
+}
+.left{
+width: 100%;
+}
+
+}
+
+
+@media (min-width: 768px)and (max-width: 979px) {
+}
+
+
+  @media (min-width: 980px)and (max-width: 991px) {
+  }
+  
+
+
+
+@media (max-width: 1200px) {
+
+
+}
